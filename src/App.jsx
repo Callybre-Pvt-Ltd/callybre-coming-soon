@@ -1,6 +1,7 @@
 import LightRays from "@/components/LightRays";
 import SplitText from "@/components/SplitText";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
@@ -60,6 +61,8 @@ function App() {
           />
         </div>
       </section>
+      <Analytics />
+      <SpeedInsights />
     </main>
   );
 }
