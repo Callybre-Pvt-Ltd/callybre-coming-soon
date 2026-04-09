@@ -1,5 +1,6 @@
 import LightRays from "@/components/LightRays";
 import SplitText from "@/components/SplitText";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
