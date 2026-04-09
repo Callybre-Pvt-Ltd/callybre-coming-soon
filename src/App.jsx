@@ -3,8 +3,8 @@ import SplitText from "@/components/SplitText";
 
 function App() {
   return (
-    <main className="dark relative h-dvh w-screen overflow-hidden bg-[#05070d] text-white">
-      <div className="pointer-events-none absolute inset-0">
+    <main className="dark relative h-dvh w-screen overflow-hidden bg-[#06081a] md:bg-[#05070d] text-white">
+      <div className="pointer-events-none absolute inset-0 hidden md:block">
         <LightRays
           raysOrigin="top-center"
           raysColor="#9fc3ff"
@@ -17,8 +17,8 @@ function App() {
           saturation={2}
         />
       </div>
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_20%,rgba(120,160,255,0.16),transparent_44%),radial-gradient(circle_at_20%_80%,rgba(124,58,237,0.18),transparent_42%)]" />
-      <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_bottom,rgba(2,6,23,0.15),rgba(2,6,23,0.75)_52%,rgba(2,6,23,0.95))]" />
+      <div className="pointer-events-none absolute inset-0 hidden md:block bg-[radial-gradient(circle_at_50%_20%,rgba(120,160,255,0.16),transparent_44%),radial-gradient(circle_at_20%_80%,rgba(124,58,237,0.18),transparent_42%)]" />
+      <div className="pointer-events-none absolute inset-0 hidden md:block bg-[linear-gradient(to_bottom,rgba(2,6,23,0.15),rgba(2,6,23,0.75)_52%,rgba(2,6,23,0.95))]" />
 
       <section className="relative z-10 flex h-full w-full flex-col items-center justify-center px-4 py-12 text-center sm:px-6 md:px-10">
         <div className="flex w-full max-w-4xl flex-col items-center justify-center">
